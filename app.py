@@ -31,11 +31,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("Smart Assistant")
-st.write("This tool reads your document, summarizes it, and lets you ask or answer questions based on it.")
+st.markdown("<h1 style='text-align:center; color:#4B8BBE; margin-top: -40px;'>Smart Research Assistant</h1>", unsafe_allow_html=True)
+st.write("This tool reads your document and lets you ask or answer questions based on it.")
 
 # Sidebar for mode selection
-mode = st.sidebar.radio("Choose a mode:", ["Ask Anything", "Challenge Me"])
+st.sidebar.title("🧠 Assistant Panel")
+mode = st.sidebar.radio("Choose Interaction Mode", ["Ask Anything", "Challenge Me"])
+# st.sidebar.info("💡 Tip: Upload a DSA syllabus, resume, or question paper to begin!")
 
 # Upload section
 st.header("Upload Document")
