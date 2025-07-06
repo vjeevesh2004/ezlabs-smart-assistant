@@ -42,8 +42,7 @@ The app will open at: http://localhost:8501
           
 ---
 ## 👨‍💻 Author
-Name: Jeevesh Varshney
-Course: B.Tech CSE (Data Science)
-College: Raj Kumar Goel Institute of Technology (RKGIT)
-GitHub: github.com/jeeveshvarshney
-LinkedIn: linkedin.com/in/jeeveshvarshney
+
+**Name:** Jeevesh Varshney  
+**Course:** B.Tech CSE (Data Science)  
+**College:** Raj Kumar Goel Institute of Technology (RKGIT)  
