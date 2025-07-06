@@ -15,6 +15,20 @@ This Smart Assistant was developed as part of the **EZ Labs Data Science Interns
 
 ---
 
+
+🛠️ Setup Instructions
+🔹 1. Clone the repository
+git clone https://github.com/jeeveshvarshney/ezlabs-smart-assistant.git
+cd ezlabs-smart-assistant
+🔹 2. Install dependencies
+pip install -r requirements.txt
+🔹 3. Run the app
+python -m streamlit run app.py
+The app will open at: http://localhost:8501
+
+---
+
+
 ## 🧠 Architecture / Reasoning Flow
 
 ### 🔹 Step-by-Step Flow:
@@ -37,3 +51,12 @@ This Smart Assistant was developed as part of the **EZ Labs Data Science Interns
                    ↓
               flan-t5-base
             (generates quiz)
+
+
+---
+## 👨‍💻 Author
+Name: Jeevesh Varshney
+Course: B.Tech CSE (Data Science)
+College: Raj Kumar Goel Institute of Technology (RKGIT)
+GitHub: github.com/jeeveshvarshney
+LinkedIn: linkedin.com/in/jeeveshvarshney
