@@ -29,30 +29,17 @@ The app will open at: http://localhost:8501
 ---
 
 
-## 🧠 Architecture / Reasoning Flow
+### 🔹 Process Breakdown (Human-Friendly)
 
-### 🔹 Step-by-Step Flow:
+1. ✅ User opens the app via Streamlit interface
+2. 📄 Uploads a PDF or TXT file
+3. 🧹 Document is read and preprocessed
+4. 📝 A summary is generated using `t5-small`
+5. 💬 User asks questions → answered using `roberta-base-squad2`
+6. 🎯 In challenge mode, questions are generated using `flan-t5-base`
+7. 📋 User responses are evaluated, and feedback is given
 
- text        
-        ┌────────────┐
-        │  User UI   │ ←─ Streamlit interface
-        └────┬───────┘
-             │
-      Uploads PDF/TXT
-             │
-      ↓ Document Reader
-             │
-  ┌────────────┬────────────┐
-  │ Summarizer │  Q&A Logic │
-  └────┬───────┴────┬───────┘
-       ↓            ↓
-  t5-small      roberta-squad2
- (summary)      (answers Qs)
-                   ↓
-              flan-t5-base
-            (generates quiz)
-text 
-
+          
 ---
 ## 👨‍💻 Author
 Name: Jeevesh Varshney
