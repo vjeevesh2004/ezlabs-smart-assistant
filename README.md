@@ -16,13 +16,13 @@ This Smart Assistant was developed as part of the **EZ Labs Data Science Interns
 ---
 
 
-🛠️ Setup Instructions
-🔹 1. Clone the repository
+🛠️ Setup Instructions: 
+1. Clone the repository - 
 git clone https://github.com/jeeveshvarshney/ezlabs-smart-assistant.git
 cd ezlabs-smart-assistant
-🔹 2. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
-🔹 3. Run the app
+3. Run the app
 python -m streamlit run app.py
 The app will open at: http://localhost:8501
 
