@@ -33,7 +33,7 @@ The app will open at: http://localhost:8501
 
 ### 🔹 Step-by-Step Flow:
 
-        
+ text        
         ┌────────────┐
         │  User UI   │ ←─ Streamlit interface
         └────┬───────┘
@@ -51,7 +51,7 @@ The app will open at: http://localhost:8501
                    ↓
               flan-t5-base
             (generates quiz)
-
+text 
 
 ---
 ## 👨‍💻 Author
