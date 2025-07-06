@@ -34,12 +34,9 @@ st.markdown("""
 st.markdown("<h1 style='text-align:center; color:#4B8BBE; margin-top: -40px;'>Smart Research Assistant</h1>", unsafe_allow_html=True)
 st.write("This tool reads your document and lets you ask or answer questions based on it.")
 
-# Sidebar for mode selection
 st.sidebar.title("🧠 Assistant Panel")
-mode = st.sidebar.radio("Choose Interaction Mode", ["Ask Anything", "Challenge Me"])
-# st.sidebar.info("💡 Tip: Upload a DSA syllabus, resume, or question paper to begin!")
+mode = st.sidebar.radio("Choose Interaction Mode", ["Ask Anything", "Challenge Me"]
 
-# Upload section
 st.header("Upload Document")
 uploaded_file = st.file_uploader("Upload a PDF or TXT file", type=["pdf", "txt"])
 
@@ -47,12 +44,10 @@ if uploaded_file:
     text = load_document(uploaded_file)
     st.success(f"Uploaded: {uploaded_file.name}")
 
-    # Summary section
     st.header("Auto Summary")
     summary = generate_summary(text)
     st.write(summary)
 
-    # Interaction section
     st.header("Interact with Document")
 
     if mode == "Ask Anything":
